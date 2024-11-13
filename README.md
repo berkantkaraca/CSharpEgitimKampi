@@ -27,3 +27,6 @@ Farklı türlerde metot tanımlamaları yaptım. İlk olarak, geriye değer dön
 
 ### 📌 9. Proje: Veri Tabanı Bağlantısı ve Verileri Listeleme
 Veritabanı bağlantısı kurarak, konsol tabanlı bir bilgi sistemi oluşturdum. Kullanıcıdan alınan tablo numarasına göre (TblCategory, TblProduct, TblOrder gibi) verileri listeleyebileceği bir menü oluşturdum. SqlConnection, SqlCommand ve SqlDataAdapter nesnelerini kullanarak, belirli bir tablodaki verileri çektim ve bir DataTable içerisine yükledim. Son olarak, bu verileri foreach döngüsü ile satır satır ekrana yazdırdım.
+
+### 📌 10. Veritabanı CRUD İşlemleri
+Bu projede, C# ve SQL Server kullanarak veritabanı üzerinde CRUD işlemlerini (Create, Read, Update, Delete) gerçekleştiren bir konsol uygulaması geliştirdim. Kullanıcıdan alınan kategori adı TblCategory tablosuna eklenirken, ürün bilgileri de TblProduct tablosuna kaydedildi. TblProduct tablosundaki ürünleri listelemek için SELECT komutu ile veriler DataTable aracılığıyla çekilerek ekrana yazdırıldı. Kullanıcıdan alınan ürün ID'si ile ürünler silinebilirken, yine ID, ad ve fiyat bilgileri kullanılarak güncellenebilir hale getirildi. Proje, veritabanı bağlantısıyla bu işlemleri konsol üzerinden yönetmeyi sağlıyor.
