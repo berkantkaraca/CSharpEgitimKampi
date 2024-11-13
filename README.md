@@ -24,3 +24,6 @@ foreach döngüsü kullanarak diziler ve koleksiyonlar üzerinde gezinme pratiğ
 
 ### 📌 8. Proje: Metotlar
 Farklı türlerde metot tanımlamaları yaptım. İlk olarak, geriye değer döndürmeyen ve parametre almayan CustomerList ve Sum gibi metotları kullanarak sabit işlemler gerçekleştirdim. Sonrasında, geriye değer döndürmeyen ancak string veya int parametreleri alan WriteMethod, CustomerCard ve Sum gibi metotlarla çeşitli işlemler yaptım. Geriye değer döndüren metotlar arasında, CustomerName, StudentCard ve CountryCard gibi string döndüren metotlarla bilgi kartları oluşturdum. Son olarak, int parametreli ve geriye değer döndüren Sum metodunu ve öğrenci sınav ortalamasına göre geçme durumu belirleyen ExamResult metodunu kullanarak sonuçları ekrana yazdırdım.
+
+### 📌 9. Proje: Veri Tabanı Bağlantısı ve Verileri Listeleme
+Veritabanı bağlantısı kurarak, konsol tabanlı bir bilgi sistemi oluşturdum. Kullanıcıdan alınan tablo numarasına göre (TblCategory, TblProduct, TblOrder gibi) verileri listeleyebileceği bir menü oluşturdum. SqlConnection, SqlCommand ve SqlDataAdapter nesnelerini kullanarak, belirli bir tablodaki verileri çektim ve bir DataTable içerisine yükledim. Son olarak, bu verileri foreach döngüsü ile satır satır ekrana yazdırdım.
